@@ -3,16 +3,16 @@ title: Python Skill Guides
 
 contents:
   - title: Freeform exploration
-    filename: freeform.md
+    filename: prompts/freeform.md
     skills:
       - python-learning
       - python-assessment
   - title: Python Tutor
-    filename: tutor.md
+    filename: prompts/tutor.md
     skills:
       - python-learning
   - title: Python Assessment
-    filename: assessment.md
+    filename: prompts/assessment.md
     skills:
       - python-assessment
 
