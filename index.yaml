@@ -1,0 +1,26 @@
+model: openai/gpt-4o
+title: Python Skill Guides
+
+contents:
+  - title: Freeform exploration
+    filename: freeform.md
+    skills:
+      - python-learning
+      - python-assessment
+  - title: Python Tutor
+    filename: tutor.md
+    skills:
+      - python-learning
+  - title: Python Assessment
+    filename: assessment.md
+    skills:
+      - python-assessment
+
+mcpServers:
+
+  shell_tool:
+    transport: stdio
+    command: uvx 
+    args: ["--directory", "$USER_HOME", "mcp-shell-server"]
+    env:
+      ALLOW_COMMANDS: python3, pip, uv
